@@ -9,16 +9,14 @@ Complete the planning sections below and include them in the README.md of your p
 ## Project Description
 
 _(Replace this text with a brief description of your game and what inspired you to make it.)_
+The game i am going to develope is Roulette wheel with tabel which, easy to play, Player has to choose a number, color of a tile, type of number or group of number. If the random number generator and selected value of player has any match the player wins Two times the bet.
 
 ## Game Logic
 
 ```
-Replace this text with pseudocode.
-The pseudocode should describe in plain, simple language the logic of the game.
-Describe the logic involved in player decisions.
-  - What are the choices available to the player?
-  - What happens when the player makes a choice?
-Describe the logic that evaluates the player's victory/loss/progress status.
+Player has to choose a number, color of a tile, type of number or group of number,
+  if the random number generator and selected value of player has any match the player wins Two times the bet.
+  else the bet goes to House/Casino
 ```
 
 ## Deliverables
