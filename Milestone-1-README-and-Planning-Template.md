@@ -9,14 +9,14 @@ Complete the planning sections below and include them in the README.md of your p
 ## Project Description
 
 _(Replace this text with a brief description of your game and what inspired you to make it.)_
-The game i am going to develope is Roulette wheel with tabel which, easy to play, Player has to choose a number, color of a tile, type of number or group of number. If the random number generator and selected value of player has any match the player wins Two times the bet.
+The web game i am going to develope will be character control game, easy to play, Start of the game a player will be using his arrow keys to control the character in game. The main objective of the game is the lead the character to the end point by avoiding hurdels along the way. and if the character get contact with any obstackels the game will be over right their, and player has restart the game from beging.
+
 
 ## Game Logic
 
 ```
-Player has to choose a number, color of a tile, type of number or group of number,
-  if the random number generator and selected value of player has any match the player wins Two times the bet.
-  else the bet goes to House/Casino
+Player will start the game by clicking any of the arrow keys, and the character will perform the perticular move, player has to keep presing the arrow key to move character, or press space bar to make the character jump, if 
+
 ```
 
 ## Deliverables
@@ -29,25 +29,26 @@ Player has to choose a number, color of a tile, type of number or group of numbe
 
 ### MVP Criteria
 
-- Your game must be winnable and clearly shows there’s a winner.
-- You must provide clear, easily accessible instructions on how to play the game.
-- Another thing my game must do to meet my minimum standard.
-- One more thing.
+- Player has to move when arrow keys are presed or space bar.
+- Character should identyfi the obstacle in front of the way.
+- Another thing my game must do to meet my minimum standard is if the chracter hit the obstacle it should go back to the starting point of the game.
+- The game should also give option to player if they want to keep playing or quit.
 - Etc.
 
 ### Post-MVP Plans
 
-- One great idea I hope to be able to add in before the project deadline.
-- Another that will be a stretch.
-- Something else I don't technically know how to do... _yet_. :)
+- Player can change the background of the game or the appearance of the character.
+- Game should be able to increasing the spped of obstacle apearing.
 
 ## Project Planning
 
 | Date      | Goals                                                                    |
 | --------- | ------------------------------------------------------------------------ |
-| Mon. 7/11 | Create GitHub repository. Complete README.md.                            |
-| Wed. 7/13 |                                                                          |
-| Sat. 7/16 |                                                                          |
-| Mon. 7/18 |                                                                          |
-| Wed. 7/20 |                                                                          |
-| Sat. 7/23 | Deploy to GitHub Pages. Submit completed project. Project presentations. |
+| Mon. 2/12 | Create GitHub repository. Complete README.md. Deploy to gitHub Pages.    |
+| Wed. 2/15 | Making sure your deployment to GitHub Pages works.                       |
+| Sat. 2/18 |                                                                          |
+| Mon. 2/20 |                                                                          |
+| Wed. 2/22 | Test project and plan to test and ensure GitHub Pages deploy is up to    |
+            | date and working successfully ahead of your final commit.                |
+| Sat. 2/25 | Deploy to GitHub Pages. Submit completed project. Project presentations. |
+
