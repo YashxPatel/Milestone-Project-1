@@ -34,38 +34,22 @@ Player will start the game by clicking any of the arrow keys or space bar
 | Date      | Goals                                                                    |
 | --------- | ------------------------------------------------------------------------ |
 | Mon. 2/12 | Create GitHub repository. Complete README.md. Deploy to gitHub Pages.    |
-| Wed. 2/15 | Gather the assets
-                Character(s) figure
-                Background(s)
-                Obstacl(s)
-| Sat. 2/18 | Start building the game with basic abilitis.
-                Adding charater
-                    making them move, with arrow keys
-                Adding Background(s)
-                Adding obstacles(s)
-| Mon. 2/20 | Finding documents referencing to colison for characters.
-                Adding instruction to the game.
-                Adding options for players to choose 
-                    Character
-                    Background
-                    Obstacle
-                Increasing speed of the obstackle appearance.
+| Wed. 2/15 | Gather the assets                                                        |
+|           |   Character(s) figure                                                    |
+|           |    Background(s)                                                         |                                          
+|           |   Obstacl(s)                                                             |
+| Sat. 2/18 | Start building the game with basic abilitis.                             |
+|           |    Adding charater                                                       |
+|           |        making them move, with arrow keys                                 |
+|           |    Adding Background(s)                                                  |
+|           |    Adding obstacles(s)                                                   |
+| Mon. 2/20 | Finding documents referencing to colison for characters.                 |
+|           |    Adding instruction to the game.                                       |
+|           |    Adding options for players to choose                                  |
+|           |        Character                                                         | 
+|           |        Background                                                        | 
+|           |        Obstacle                                                          | 
+|           |    Increasing speed of the obstackle appearance.                         |
 | Wed. 2/22 | Test project and plan to test and ensure GitHub Pages deploy is up to    |
-            | date and working successfully ahead of your final commit.                |
+|           | date and working successfully ahead of your final commit.                |
 | Sat. 2/25 | Deploy to GitHub Pages. Submit completed project. Project presentations. |
-
-1. What’s your status on your project today?
--  Planing and setting timeline for all the goals.
-
-2. What are you going to do next?
--  Start gathering assets for the build.
-
-3. Explain using code terminology what you’re doing as much as possible
--  The game character will be able to detect colison for the obstcle appearing in front of it,
-   In the post MVP the game will increase the speed of making obstacle appear quicker.
-
-4. What is standing in your way? (blockers)
--  I belive their will be only one and that is, how to detect colison.
-
-5. What solution do you need for your blocker(s)?
--  Maybe a reference to a document which might help me with the blocker(s)
