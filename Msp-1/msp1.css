@@ -15,6 +15,20 @@ body{
     height: 100vh;
 }
 
+#options p{
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+kbd {
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 2px;
+    padding: 2px;
+    color: white;
+    border: 1px solid white;
+}
+
 .player{
     background-image: url(Assets/green-character/east.gif);
     background-repeat: no-repeat;
@@ -67,7 +81,7 @@ body{
     margin: auto;
     width: 50%;
     padding-top: 50px;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     width: 790px;
 }
 

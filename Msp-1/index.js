@@ -58,3 +58,8 @@ setInterval(() => {
 function updateScore(score){
     scoreCount.innerHTML = "Your Score: " + score
 }
+
+setTimeout(function(){
+    var tip = document.getElementById("options");
+    tip.parentNode.removeChild(tip);
+}, 10000);
