@@ -1,20 +1,10 @@
-
+// Game Music
 audio = new Audio('music.mp3');
 audiogo = new Audio('gameover.mp3');
 
 setTimeout(() => {
     audio.play();
 }, 1000);
-
-
-let popUp = document.getElementById("popUp");
-
-function openPopup(){
-    popUp.classList.add("open-popUp");
-}
-function closePopup(){
-    popUp.classList.remove("open-popUp");
-}
 
 
 document.onkeydown = function(e) {
@@ -90,3 +80,13 @@ setTimeout(function(){
     var tip = document.getElementById("options");
     tip.parentNode.removeChild(tip);
 }, 10000);
+
+
+let popUp = document.getElementById("popUp");
+
+function openPopup(){
+    popUp.classList.add("open-popUp");
+}
+function closePopup(){
+    popUp.classList.remove("open-popUp");
+}
