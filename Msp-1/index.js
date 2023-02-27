@@ -1,12 +1,26 @@
+
+let popUp = document.getElementById("popUp");
+
+function openPopup(){
+    popUp.classList.add("open-popUp");
+}
+function closePopup(){
+    popUp.classList.remove("open-popUp");
+}
+
+
 document.onkeydown = function(e) {
     console.log("key code is: ", e.keyCode)
+
+    //KEY 32 is space bar
     if (e.keyCode == 32) {
         player = document.querySelector('.player');
         player.classList.add('animatePlayer');
         setTimeout(() => {
             player.classList.remove('animatePlayer');
-        }, 700);
+        }, 700);//distance to jump
     }
+    //KEY 39 and 37 is left and right arrow key
     if (e.keyCode == 39) {
         player = document.querySelector('.player');
         playerX = parseInt(window.getComputedStyle(player, null).getPropertyValue('left'));
@@ -53,7 +67,7 @@ setInterval(() => {
         }, 500);
     }
 
-}, 10);
+}, 100);
 
 function updateScore(score){
     scoreCount.innerHTML = "Your Score: " + score

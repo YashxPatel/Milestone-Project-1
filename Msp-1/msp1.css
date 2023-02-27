@@ -8,7 +8,7 @@ body{
 }
 
 .gameContainer{
-    background-image: url(Assets/bg.png);
+    background-image: url(Assets/istockphoto-1313445579-612x612.jpg);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     width: 100%;
@@ -36,7 +36,7 @@ kbd {
     width: 100px;
     height: 150px;
     position: absolute;
-    bottom: 15px;
+    bottom: 10px;
     left: 20px;
 
 }
@@ -47,7 +47,7 @@ kbd {
     background-image: url(Assets/boulder.png);
     background-repeat: no-repeat;
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
     left: 50vw
 
 }
@@ -69,21 +69,81 @@ kbd {
     border: 5px solid #FFFF00;
     padding: 10px; 
     font-size: 53px;
-    color: red;
+    color: white;
     text-align: center;
     visibility: hidden;
+    z-index: auto;
 }
 
 #scoreCount {
     font-family: 'Press Start 2P', cursive;
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     margin: auto;
     width: 50%;
-    padding-top: 50px;
-    /*border: 2px solid black;*/
+    padding-top: 30px;
+    color: white;
     width: 790px;
 }
+
+.popupBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 60px;
+    background-color: aliceblue;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+}
+.popUp {
+    font-family: 'Press Start 2P', cursive;
+    width: 600px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    transition: transform 0.4s;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.open-popUp {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+.popUp kbd {
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 2px;
+    padding: 2px;
+    color: black;
+    border: 1px solid black;
+}
+.popUp p {
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+.popUp button {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 
 @keyframes player{
     0%{
