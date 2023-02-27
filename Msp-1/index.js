@@ -1,4 +1,12 @@
 
+audio = new Audio('music.mp3');
+audiogo = new Audio('gameover.mp3');
+
+setTimeout(() => {
+    audio.play();
+}, 1000);
+
+
 let popUp = document.getElementById("popUp");
 
 function openPopup(){
@@ -51,6 +59,11 @@ setInterval(() => {
     if (offsetX < 113 && offsetY <52) {
         gameOver.style.visibility = 'visible';
         obstacle.classList.remove('obstacleAni')
+        audiogo.play();
+        setTimeout(() =>{
+            audiogo.pause();
+            audio.pause();
+        }, 1000);
     }
     else if (offsetX< 145 && cross){
         score+=1;
