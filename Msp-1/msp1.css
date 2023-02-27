@@ -6,6 +6,8 @@
 body{
     overflow: hidden;
 }
+
+/*Game Name*/
 h1{
     padding-top: 10px;
     font-family: 'Press Start 2P', cursive;

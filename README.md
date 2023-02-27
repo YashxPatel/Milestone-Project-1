@@ -1,5 +1,9 @@
 # Milestone-Project-1
 
+### Deployment
+Link to the web Game:
+https://yashxpatel.github.io/Milestone-Project-1/Msp-1/index.html
+
 ## Project Description
 
 The web game i am going to develope will be character control game, easy to play, Start of the game a player will be using his arrow keys to control the character in game. The main objective of the game is the lead the character to the end point by avoiding hurdels along the way. and if the character get contact with any obstackels the game will be over right their, and player has restart the game from beging.
