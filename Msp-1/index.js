@@ -6,7 +6,6 @@ setTimeout(() => {
     audio.play();
 }, 1000);
 
-
 document.onkeydown = function(e) {
     console.log("key code is: ", e.keyCode)
 
@@ -31,6 +30,7 @@ document.onkeydown = function(e) {
     }
 } 
 
+//Game score section
 score = 0;
 cross = true;
 setInterval(() => {
@@ -61,7 +61,7 @@ setInterval(() => {
         cross = false;
         setTimeout(() => {
             cross = true;
-        }, 1000);
+        }, 1000); //time of jerk
         setTimeout(() => {
             aniDur = parseFloat(window.getComputedStyle(obstacle, null).getPropertyValue('animation-duration'));
             //change speed of obstacle below
@@ -70,18 +70,19 @@ setInterval(() => {
         }, 500);
     }
 
-}, 100);
+}, 100); // score refresh
 
 function updateScore(score){
     scoreCount.innerHTML = "Your Score: " + score
 }
 
+//temp Game instruction
 setTimeout(function(){
     var tip = document.getElementById("options");
     tip.parentNode.removeChild(tip);
 }, 10000);
 
-
+//Main Pop-Up
 let popUp = document.getElementById("popUp");
 
 function openPopup(){

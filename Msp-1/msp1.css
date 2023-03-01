@@ -9,6 +9,7 @@ body{
 
 /*Game Name*/
 h1{
+    padding-left: 10px;
     padding-top: 10px;
     font-family: 'Press Start 2P', cursive;
     color: white;
@@ -97,7 +98,7 @@ kbd {
     position: absolute;
     top: 20px;
     right: 20px;
-    padding: 10px 60px;
+    padding: 10px 10px;
     background-color: aliceblue;
     border: 0;
     outline: none;
