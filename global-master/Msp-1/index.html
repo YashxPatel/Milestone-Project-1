@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run Boy Run!</title>
+    <link rel="stylesheet" href="msp1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="gameContainer">
+        <h1>RUN BOY RUN</h1>
+        <div id="scoreCount">Your Score: 0</div>
+        <div id="options">
+            <p>Use: <kbd>Space</kbd> to jump <br><kbd>Left</kbd>, <kbd>Right</kbd>to move forward and back</p>
+        </div>
+        <button type="submit" class="popupBtn" onclick="openPopup()">About game</button>
+        <div class="popUp" id="popUp">
+            <h2>About this Game</h2><br>
+            <h4>Instruction</h4><br>
+            <p>Use: <kbd>Space</kbd> to jump <br><kbd>Left</kbd>, <kbd>Right</kbd>to move forward and back</p><br><br>
+            <h4>About this game</h4><br>
+            <p>Run Boy Run! is a simple, fun, and challenging game.<br>
+                The goal of the game is to run as fast as possible.<br>
+                The game is played on a track with a number of obstacles.<br>
+                The player must avoid the obstacles and run as fast as possible.
+            </p>
+            <button type="button" onclick="closePopup()">OK</button>
+        </div>
+        <div class="gameOver">Game Over</div>
+        <div class="player"></div>
+        <div class="obstacle obstacleAni"></div>
+    </div>
+</body>
+</html>
