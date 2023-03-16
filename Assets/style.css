@@ -72,6 +72,15 @@ img {
   height: auto;
 }
 
+.skill pre{
+  margin: 150px;
+  font-family: 'Raleway', sans-serif;
+}
+.skill a{
+  margin: 150px;
+  font-family: 'Raleway', sans-serif;
+}
+
 /*----- LAYOUT -----*/
 .bd-grid {
   max-width: 1200px;
