@@ -192,8 +192,8 @@ body{background-color:#0c0c0c;font-size:14px;line-height:1.6;font-family:"Montse
 .about--banner a:hover svg{left:10px}
 .about--banner a svg{position:relative;left:5px;width:15px;fill:#fff;-webkit-transition:left .2s ease-in-out;transition:left .2s ease-in-out}
 .about--banner img{position:absolute;bottom:-90px;right:-12px}
-.about--options{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;max-width:600px;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;margin:0;padding:0;list-style:none}
-.about--options>a{position:relative;width:150px;height:75px;text-decoration:none;color:#fff;border:10px solid #0f33ff;background-position:center;background-size:cover;background-repeat:no-repeat}
+.about--options{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;max-width:999px;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;margin:0;padding:0;list-style:none}
+.about--options>a{position:relative;width:250px;height:100px;text-decoration:none;color:#fff;border:8px solid #0f33ff;background-position:center;background-size:cover;background-repeat:no-repeat}
 .about--options>a:nth-child(1){background-image:url("../img/about-winners.jpg")}
 .about--options>a:nth-child(2){background-image:url("../img/about-philosophy.jpg")}
 .about--options>a:nth-child(3){background-image:url("../img/about-history.jpg")}
@@ -201,9 +201,11 @@ body{background-color:#0c0c0c;font-size:14px;line-height:1.6;font-family:"Montse
 .about--options>a:hover h3{bottom:-50px}
 .about--options h3{position:absolute;bottom:-38px;left:10px;font-size:16px;text-transform:uppercase;-webkit-transition:bottom .2s ease-in-out,left .2s ease-in-out;transition:bottom .2s ease-in-out,left .2s ease-in-out}
 
-@media (max-width: 767px){.about--banner{height:305px}.about--banner::before{top:0;left:125px}.about--banner::after{top:35px;left:260px}.about--banner h2{margin-top:10px;font-size:44px}.about--banner h2::before{top:28px;left:168px}.about--banner h2::after{top:163px;left:163px}.about--banner img{width:315px}}
+@media (max-width: 767px){.about--banner{height:500px}.about--banner::before{top:0;left:125px}.about--banner::after{top:35px;left:260px}.about--banner h2{margin-top:10px;font-size:40px}.about--banner h2::before{top:28px;left:168px}.about--banner h2::after{top:163px;left:163px} .about--banner p{font-size:15px;} .about--banner img{width:315px}
+.about--options{max-width:600px;width: 350px;height: 50px;font-size: 5px; align-items:start;} .about--options h3{font-size: 13px;}}
 
-@media (max-width: 600px){.about--banner{height:auto}.about--banner::before{left:155px}.about--banner::after{left:310px}.about--banner h2{margin-top:0;font-size:55px}.about--banner h2::before{top:43px;left:214px}.about--banner h2::after{top:205px;left:205px}.about--banner img{display:none}.about--options{display:none}}
+@media (max-width: 600px){.about--banner{height:500}.about--banner::before{left:155px}.about--banner::after{left:310px}.about--banner h2{margin-top:5px;font-size:30px}.about--banner h2::before{top:43px;left:214px}.about--banner h2::after{top:205px;left:205px} .about--banner p{font-size:12px;} .about--banner img{display:none} 
+.about--options{max-width:500px;width: 335px;height: 50px;font-size: 5px; align-items:start;} .about--options h3{font-size: 12px;}}
 
 .contact{position:fixed;top:0;left:0;width:100%;height:100%;background-image:url("../img/contact-visual.png");background-position:center;background-size:cover;background-repeat:no-repeat}
 .contact--lockup{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:900px;max-width:75%;height:100%;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;margin:0 auto}
