@@ -183,7 +183,8 @@ body{background-color:#0c0c0c;font-size:14px;line-height:1.6;font-family:"Montse
 @media (max-width: 1180px){.about{max-width:100%} }
 
 .post-card {
-    width: 280px;
+    width: 30%;
+    height: 35%;
     background: lightgrey;
     background-color: rgb(24 27 32);
     border: 1px solid rgb(84 90 106);
@@ -231,7 +232,7 @@ embed {
   
 .image-preview {
     flex: 1;
-    min-height: 150px;
+    height: 100%;
     width: 100%;
     border-radius: 20px;
     background-color: blueviolet;
@@ -259,10 +260,10 @@ embed {
 .about--options h3{position:absolute;bottom:-38px;left:10px;font-size:16px;text-transform:uppercase;-webkit-transition:bottom .2s ease-in-out,left .2s ease-in-out;transition:bottom .2s ease-in-out,left .2s ease-in-out}
 
 @media (max-width: 767px){.about--banner{height:500px}.about--banner::before{top:0;left:125px}.about--banner::after{top:35px;left:260px}.about--banner h2{margin-top:10px;font-size:40px}.about--banner h2::before{top:28px;left:168px}.about--banner h2::after{top:163px;left:163px} .about--banner p{font-size:15px;} .about--banner img{width:315px}
-.about--options{max-width:600px;width: 350px;height: 50px;font-size: 5px; align-items:start;} .about--options h3{font-size: 13px;} .post-card {width:220px; height: 240px; padding: 6px 14px;}}
+.about--options{max-width:600px;width: 350px;height: 50px;font-size: 5px; align-items:start;} .about--options h3{font-size: 13px;} .post-card {width:30%; height: 35%; padding: 6px 14px;} .title {font-size: 120%;}}
 
 @media (max-width: 600px){.about--banner{height:500}.about--banner::before{left:155px}.about--banner::after{left:310px}.about--banner h2{margin-top:5px;font-size:30px}.about--banner h2::before{top:43px;left:214px}.about--banner h2::after{top:205px;left:205px} .about--banner p{font-size:12px;} .about--banner img{display:none} 
-.about--options{max-width:500px;width: 335px;height: 50px;font-size: 5px; align-items:start;} .about--options h3{font-size: 12px;} .post-card {width:180px; height: 200px; padding: 4px 12px;}}
+.about--options{max-width:500px;width: 335px;height: 50px;font-size: 5px; align-items:start;} .about--options h3{font-size: 12px;} .post-card {width:30%; height: 35%; padding: 4px 12px;} .title {font-size: 95%;}}
 
 .contact{position:fixed;top:0;left:0;width:100%;height:100%;background-image:url("../img/contact-visual.png");background-position:center;background-size:cover;background-repeat:no-repeat}
 .contact--lockup{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:900px;max-width:75%;height:100%;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;margin:0 auto}
